@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --brand:#9ec9e8; }
+body { @apply bg-white text-gray-900; }
+.card { @apply rounded-2xl shadow-lg p-6 bg-white; }
+.btn { @apply rounded-2xl px-4 py-2 shadow font-medium; }
+.btn-primary { @apply btn bg-[var(--brand)] hover:opacity-90; }
+.field { @apply border rounded-xl px-3 py-2 w-full; }
+.label { @apply block text-sm font-semibold mb-1; }
